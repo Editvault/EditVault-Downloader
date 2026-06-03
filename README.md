@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo-edyt.png" alt="EditVault" width="88">
+
 # EditVault Downloader
 
 **Download clips from YouTube, Instagram, TikTok, and more — built for video editors.**
