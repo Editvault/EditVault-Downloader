@@ -82,52 +82,47 @@
 
 ---
 
-## Supported platforms
+## Platforms · Resolutions · Send to Editor
 
-<div align="center">
+<table>
+<tr>
+<th align="left" width="34%">Supported platforms</th>
+<th align="left" width="33%">Resolutions</th>
+<th align="left" width="33%">Send to Editor</th>
+</tr>
+<tr>
+<td valign="top">
 
-| | | |
-|:---:|:---:|:---:|
-| **YouTube** | **Instagram** | **TikTok** |
-| **SoundCloud** | **Facebook** | **X (Twitter)** |
-| **Pinterest** | **Twitch** | **Vimeo** |
-| **Patreon** | **LinkedIn** | |
+<strong>YouTube</strong> · <strong>Instagram</strong> · <strong>TikTok</strong><br>
+<strong>SoundCloud</strong> · <strong>Facebook</strong> · <strong>X (Twitter)</strong><br>
+<strong>Pinterest</strong> · <strong>Twitch</strong> · <strong>Vimeo</strong><br>
+<strong>Patreon</strong> · <strong>LinkedIn</strong><br>
+<br>
+<sub>Playlists where supported (YouTube, SoundCloud, Vimeo, Patreon).</sub>
 
-</div>
+</td>
+<td valign="top">
 
-Playlist downloads are supported where the source allows (e.g. YouTube, SoundCloud, Vimeo, Patreon).
+<strong>Best quality</strong> · <strong>4320p (8K)</strong><br>
+<strong>2160p (4K)</strong> · <strong>1440p</strong><br>
+<strong>1080p</strong> · <strong>720p</strong><br>
+<strong>480p</strong> · <strong>360p</strong><br>
+<strong>Audio only (mp3)</strong><br>
+<br>
+<sub>Options depend on the source.</sub>
 
----
+</td>
+<td valign="top">
 
-## Resolutions
+<strong>DaVinci Resolve</strong> — media pool import<br>
+<strong>Adobe Premiere Pro</strong> — reveal / import<br>
+<strong>After Effects</strong> — project import<br>
+<br>
+<sub>Enable in Settings. Keep your NLE open before sending.</sub>
 
-<div align="center">
-
-| | |
-|:---:|:---:|
-| **Best quality** | **4320p (8K)** |
-| **2160p (4K)** | **1440p** |
-| **1080p** | **720p** |
-| **480p** | **360p** |
-| **Audio only (mp3)** | |
-
-</div>
-
-Available options depend on what the source provides.
-
----
-
-## Send to Editor
-
-When enabled, finished files can be sent to a detected editor:
-
-| Editor | Behavior |
-|--------|----------|
-| **DaVinci Resolve** | Import into the media pool |
-| **Adobe Premiere Pro** | Reveal in project / import workflow |
-| **After Effects** | Import into the project |
-
-Configure editor detection and paths in **Settings**. Keep your NLE open before sending if the app reports it is not running.
+</td>
+</tr>
+</table>
 
 ---
 
