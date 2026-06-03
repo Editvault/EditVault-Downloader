@@ -7,6 +7,11 @@
 <table align="center">
 <tr>
 <td>
+<a href="https://mega.nz/file/B2g2QQRC#kgcQFVGG2EYcyFWnDPmIdASF3WhxdUqBKu9Whd0B3iM">
+<img src="https://img.shields.io/badge/Download-8B5CF6?style=for-the-badge&logoColor=white" alt="Download EditVault" height="32">
+</a>
+</td>
+<td>
 <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10 / 11" height="32">
 </td>
 <td>
@@ -14,6 +19,8 @@
 </td>
 </tr>
 </table>
+
+**~39 MB** · extract and run `EditVault.exe`
 
 [Website](https://editvault.net) · [Discord](https://discord.gg/9YYV5hyWKa)
 
