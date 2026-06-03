@@ -27,6 +27,21 @@
 | **Up to 8K** where the source allows | 12 supported platforms |
 | **Editor handoff** | DaVinci Resolve · Premiere Pro · After Effects |
 
+<br />
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="assets/download-studio.png" alt="EditVault Download Studio" width="100%">
+<br><sub><strong>Download Studio</strong> — paste a URL, pick platform &amp; quality, download</sub>
+</td>
+<td align="center" width="50%">
+<img src="assets/settings.png" alt="EditVault Settings" width="100%">
+<br><sub><strong>Settings</strong> — Send to Editor, license, and manual updates</sub>
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
