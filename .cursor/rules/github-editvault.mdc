@@ -1,0 +1,27 @@
+---
+description: EditVault GitHub account — always confirm before git/gh operations
+alwaysApply: true
+---
+
+# EditVault GitHub account (3rd account)
+
+This project may use a **separate GitHub account** labeled **editvault**. The user has **other git accounts** (Gitea + another GitHub) — **never modify their SSH config, remotes, or credentials**.
+
+## Before any GitHub action
+
+**Always ask the user first** before:
+- `git push`, `git pull`, `git fetch`, or changing `origin`
+- `gh auth login`, `gh repo create`, `gh pr create`, or any `gh` command targeting GitHub
+- Editing `~/.ssh/config` entries other than `github-editvault`
+- Switching git user.name / user.email for commits
+
+## When approved, use only the editvault identity
+
+- SSH remote: `git@github-editvault:USERNAME/REPO.git` (Host alias `github-editvault`)
+- Key file: `~/.ssh/id_ed25519_editvault` — do not reuse default `id_ed25519`
+- Push frequency: occasional only — do not push unless the user asks
+
+## Do not touch
+
+- Other SSH hosts in `~/.ssh/config` (plesk, ubuntu, Ginx, Benny, etc.)
+- Other GitHub/Gitea remotes or credentials on this machine

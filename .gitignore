@@ -1,0 +1,8 @@
+# Large release binary — distribute via website / releases, not source repo
+EditVault.exe
+*.exe
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.log
