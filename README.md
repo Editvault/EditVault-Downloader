@@ -4,34 +4,17 @@
 
 **Download clips from YouTube, Instagram, TikTok, and more — built for video editors.**
 
-<br />
+[![Download v2.0](https://img.shields.io/badge/Download-v2.0-8B5CF6?style=for-the-badge)](https://mega.nz/file/82AziDDK#VFCxuTV8sFOfUjzrmAGtBpUoPwWfyF-QWCoXvHrMuzQ)
 
-<a href="https://mega.nz/file/82AziDDK#VFCxuTV8sFOfUjzrmAGtBpUoPwWfyF-QWCoXvHrMuzQ">
-  <img src="https://img.shields.io/badge/⬇%20Download%20EditVault%20v2.0%20—%20Windows-8B5CF6?style=for-the-badge&logo=windows&logoColor=white" alt="Download EditVault for Windows">
-</a>
-
-<br />
-
-**[⬇ Download EditVault (MEGA)](https://mega.nz/file/82AziDDK#VFCxuTV8sFOfUjzrmAGtBpUoPwWfyF-QWCoXvHrMuzQ)** · ~39 MB · extract & run `EditVault.exe`
-
-<br />
-
-[![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://editvault.net)
-[![Version](https://img.shields.io/badge/Version-2.0.0-8B5CF6?style=for-the-badge)](https://editvault.net)
+<sub>Windows · ~39 MB</sub>
 
 [Website](https://editvault.net) · [Discord](https://discord.gg/9YYV5hyWKa)
 
-<br />
-
-<div align="center">
 <pre>
 ┌─────────────────────────────────────────────────────────────┐
 │  Paste URL  →  Pick quality  →  Download  →  Send to Editor │
 └─────────────────────────────────────────────────────────────┘
 </pre>
-</div>
-
-<br />
 
 | | |
 |:---:|:---:|
