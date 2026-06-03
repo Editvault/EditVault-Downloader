@@ -3,6 +3,7 @@ EditVault.exe
 *.exe
 
 # OS & editor
+.cursor/
 .DS_Store
 Thumbs.db
 *.log
