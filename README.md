@@ -8,14 +8,14 @@
 <tr>
 <td>
 <a href="https://mega.nz/file/82AziDDK#VFCxuTV8sFOfUjzrmAGtBpUoPwWfyF-QWCoXvHrMuzQ">
-<img src="https://img.shields.io/badge/⬇%20Download%20EditVault-8B5CF6?style=for-the-badge&logo=mega&logoColor=white" alt="Download EditVault">
+<img src="https://img.shields.io/badge/Download-8B5CF6?style=for-the-badge&logoColor=white" alt="Download EditVault" height="32">
 </a>
 </td>
 <td>
-<img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10 / 11">
+<img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10 / 11" height="32">
 </td>
 <td>
-<img src="https://img.shields.io/badge/v2.0.0-A855F7?style=for-the-badge" alt="Version 2.0.0">
+<img src="https://img.shields.io/badge/v2.0.0-A855F7?style=for-the-badge" alt="Version 2.0.0" height="32">
 </td>
 </tr>
 </table>
