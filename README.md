@@ -5,25 +5,26 @@
 **Download clips from YouTube, Instagram, TikTok, and more — built for video editors.**
 
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://editvault.net)
-[![Version](https://img.shields.io/badge/Version-2.0.0-8B5CF6?style=for-the-badge)](https://license.editvault.me)
-[![Python](https://img.shields.io/badge/Python-Not%20Required-22C55E?style=for-the-badge)](https://editvault.net)
+[![Version](https://img.shields.io/badge/Version-2.0.0-8B5CF6?style=for-the-badge)](https://editvault.net)
 
-[Website](https://editvault.net) · [Discord](https://discord.gg/9YYV5hyWKa) · [License & updates](https://license.editvault.me)
+[Website](https://editvault.net) · [Discord](https://discord.gg/9YYV5hyWKa)
 
 <br />
 
-```
-  ┌─────────────────────────────────────────────────────────────┐
-  │  Paste URL  →  Pick quality  →  Download  →  Send to Editor │
-  └─────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+<pre>
+┌─────────────────────────────────────────────────────────────┐
+│  Paste URL  →  Pick quality  →  Download  →  Send to Editor │
+└─────────────────────────────────────────────────────────────┘
+</pre>
+</div>
 
 <br />
 
 | | |
 |:---:|:---:|
-| **No Python. No pip. No terminal.** | Double-click `EditVault.exe` and go. |
-| **Up to 8K** where the source allows | YouTube · Instagram · TikTok · and more |
+| **Double-click and go** | Run <code>EditVault.exe</code> — no setup required |
+| **Up to 8K** where the source allows | 12 supported platforms |
 | **Editor handoff** | DaVinci Resolve · Premiere Pro · After Effects |
 
 </div>
@@ -37,7 +38,7 @@
 - Pick a platform and resolution (up to **8K** where available)
 - Download to a dedicated folder under your **Videos** library
 - Optional **Send to Editor** after each download
-- Licensed through [EditVault Keygate](https://license.editvault.me) — sign in once, stay activated on your machine
+- Sign in once with your license key — stay activated on your machine
 
 > **First launch** can take 20–40 seconds while the single-file app unpacks. Later launches are faster.
 
@@ -60,7 +61,7 @@
 </tr>
 <tr>
 <td align="center"><strong>4</strong></td>
-<td>On first launch, the app may download <strong>yt-dlp</strong> and <strong>FFmpeg</strong> once — wait until status shows <strong>Ready</strong></td>
+<td>On first launch, the app may download the <strong>EditVault-AI engine</strong> once — wait until status shows <strong>Ready</strong></td>
 </tr>
 <tr>
 <td align="center"><strong>5</strong></td>
@@ -76,21 +77,43 @@
 |-------------|---------|
 | **OS** | Windows 10 or 11 (64-bit) |
 | **RAM** | 4 GB+ recommended |
-| **Disk** | ~500 MB for app; extra space for downloads and engine tools |
+| **Disk** | ~500 MB for app; extra space for downloads and the EditVault-AI engine |
 | **Network** | Required for login, downloads, and first-time engine setup |
-| **Python** | **Not required** — runtime is bundled inside `EditVault.exe` |
 
 ---
 
 ## Supported platforms
 
-<p align="center">
+<div align="center">
 
-YouTube · Instagram · TikTok · SoundCloud · Facebook · X (Twitter) · Pinterest · Twitch · Vimeo · Patreon · LinkedIn
+| | | |
+|:---:|:---:|:---:|
+| **YouTube** | **Instagram** | **TikTok** |
+| **SoundCloud** | **Facebook** | **X (Twitter)** |
+| **Pinterest** | **Twitch** | **Vimeo** |
+| **Patreon** | **LinkedIn** | |
 
-</p>
+</div>
 
 Playlist downloads are supported where the source allows (e.g. YouTube, SoundCloud, Vimeo, Patreon).
+
+---
+
+## Resolutions
+
+<div align="center">
+
+| | |
+|:---:|:---:|
+| **Best quality** | **4320p (8K)** |
+| **2160p (4K)** | **1440p** |
+| **1080p** | **720p** |
+| **480p** | **360p** |
+| **Audio only (mp3)** | |
+
+</div>
+
+Available options depend on what the source provides.
 
 ---
 
@@ -110,9 +133,9 @@ Configure editor detection and paths in **Settings**. Keep your NLE open before 
 
 ## Where files live on your PC
 
-EditVault keeps **portable** and **writable** data separate. You can move the `.exe` folder; settings and engines stay in your user profile.
+EditVault keeps **portable** and **writable** data separate. You can move the `.exe` folder; settings and the EditVault-AI engine stay in your user profile.
 
-### License, logs, and app data
+### App data
 
 | Platform | Folder |
 |----------|--------|
@@ -125,15 +148,6 @@ EditVault keeps **portable** and **writable** data separate. You can move the `.
 ```text
 C:\Users\<You>\AppData\Roaming\EditVault\
 ```
-
-| File / folder | Purpose |
-|---------------|---------|
-| `license.json` | Saved license (device activation) |
-| `config.txt` | Shared EditVault config (same family as Resolve plugin) |
-| `download_logs.txt` | Activity log shown in the app |
-| `bin\` | Bundled **yt-dlp** (auto-downloaded) |
-| `ffmpeg\` | Bundled **FFmpeg** / **ffprobe** (auto-downloaded) |
-| `memory\` | App preferences (e.g. last platform, editor paths) |
 
 > Uninstalling: delete `EditVault.exe` and, if you want a full reset, remove the `EditVault` folder under AppData above.
 
@@ -151,8 +165,8 @@ You can change the folder anytime in the app with **Browse**.
 
 ## Updates
 
-- **App updates**: Settings → check for a newer **EditVault** release ([license.editvault.me](https://license.editvault.me))
-- **Engines**: Optional refresh of yt-dlp / FFmpeg from Settings (manual; does not run in the background)
+- **App updates**: Settings → check for a newer **EditVault** release
+- **EditVault-AI engine**: Optional refresh from Settings (manual; does not run in the background)
 
 Your installed version is shown in the app (currently **v2.0.0** for this package).
 
@@ -162,9 +176,9 @@ Your installed version is shown in the app (currently **v2.0.0** for this packag
 
 | Issue | What to try |
 |-------|-------------|
-| Stuck on “Booting engine…” | Wait 1–2 minutes on first run; ensure internet works; check antivirus is not blocking `EditVault.exe` or `%APPDATA%\EditVault\bin\yt-dlp.exe`. |
-| License invalid | Sign in again; confirm key is active at [license.editvault.me](https://license.editvault.me). |
-| Download fails | Update engines in Settings; try another URL or lower resolution. |
+| Stuck on “Booting engine…” | Wait 1–2 minutes on first run; ensure internet works; check antivirus is not blocking `EditVault.exe` or the EditVault-AI engine folder under `%APPDATA%\EditVault\`. |
+| License invalid | Sign in again; confirm key is active on [Discord](https://discord.gg/9YYV5hyWKa). |
+| Download fails | Refresh the EditVault-AI engine in Settings; try another URL or lower resolution. |
 | Send to Editor does nothing | Open the editor first; confirm only one target editor is running; check activity log in the app. |
 
 **Activity log:** `%APPDATA%\EditVault\download_logs.txt`
@@ -177,7 +191,6 @@ Your installed version is shown in the app (currently **v2.0.0** for this packag
 |---|---|
 | **Website** | [editvault.net](https://editvault.net) |
 | **Discord** | [discord.gg/9YYV5hyWKa](https://discord.gg/9YYV5hyWKa) |
-| **Licensing & API** | [license.editvault.me](https://license.editvault.me) |
 
 ---
 
